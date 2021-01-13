@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@1,700&display=swap');
+
+.card {
+  height: 440px;
+  padding: 20px;
+  margin: 30px 20px;
+  display: flex;
+  justify-content: center;
+
+  background: rgba(0, 10, 0, 0.3);
+  border-radius: 5%;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.cardClose {
+  display: none;
+}
+
+.cardOpen {
+  position: fixed;
+  height: 65vh;
+  width: 40vw;
+  top: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(0, 10, 0, 0.95);
+  border-radius: 20px;
+  cursor: default;
+  z-index: 999;
+}
+
+.textOpen {
+  height: 80%;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.4rem;
+  margin: auto 20px;
+  padding: 20px 40px;
+  border: 1px solid gray;
+  border-radius: 12px;
+}
+
+.close-card {
+  position: absolute;
+  width: 100%;
+  top: 20px;
+}
+
+.icon {
+  background-color: lightgray;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.icon:hover {
+  background-color: #fff;
+  /* opacity: .7; */
+  transform: scale(1.15);
+}
+
+.close-card span {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.textCard {
+  max-width: 360px;
+  max-height: 400px;
+  margin: 10px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.card:hover {
+  background: rgba(0, 10, 0, 0.6);
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-appear {
+  animation-name: appear;
+  animation-duration: 700ms;
+  animation-fill-mode: backwards;
+}
+
+/* @keyframes disappear {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.animate-disappear {
+  animation-name: disappear;
+  animation-duration: 700ms;
+  animation-fill-mode: backwards;
+} */
+
+@media screen and (max-width: 1240px) {
+  .cardOpen {
+    height: 65vh;
+    width: 40vw;
+    top: 30vh;
+  }
+
+  .textOpen {
+    font-size: clamp(14px, 16px, 18px);
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .cardOpen {
+    height: 80vh;
+    width: 60vw;
+    top: 10vh;
+  }
+
+  .textOpen {
+    font-size: clamp(16px, 18px, 20px);
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .cardOpen {
+    height: 80vh;
+    width: 70vw;
+    top: 10vh;
+  }
+
+  .textOpen {
+    font-size: clamp(16px, 18px, 20px);
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .cardOpen {
+    height: 80vh;
+    width: 80vw;
+    top: 10vh;
+  }
+
+  .textOpen {
+    font-size: clamp(10px, 14px, 16px);
+  }
+}
+
+@media screen and (max-width: 388px) {
+  .cardOpen {
+    height: 90vh;
+    width: 90vw;
+    top: 10vh;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .card:first-child {
+    margin-top: -10px;
+    height: 490px;
+  }
+
+  .card {
+    background: linear-gradient(to top left, #505050, rgb(13, 13, 13)) no-repeat;
+  }
+
+  .card:hover {
+    transform: scale(1.03);
+    transition: 0.3s ease;
+    background: linear-gradient(to top left, #505050, rgb(13, 13, 13)) no-repeat;
+  }
+
+  .textCard {
+    font-size: 14px;
+    font-family: 'Ubuntu Mono', monospace, sans-serif;
+    color: #fff;
+    line-height: 1.4;
+  }
+
+  .cardOpen {
+    height: 80vh;
+    width: 90vw;
+    top: 16vh;
+    left: auto;
+    background: linear-gradient(to top left, #505050, rgb(13, 13, 13) 80%) no-repeat;
+  }
+
+  .textOpen {
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: 'Ubuntu Mono', monospace, sans-serif;
+    color: #fff;
+  }
+}
