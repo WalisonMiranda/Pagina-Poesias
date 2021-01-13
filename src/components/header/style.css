@@ -64,6 +64,7 @@
     .container {
         height: 20vh;
         width: 100vw;
+        margin: 0;
         padding-top: 10px;
         border-radius: 0;
         background-color: rgba(67, 67, 67, 1);
