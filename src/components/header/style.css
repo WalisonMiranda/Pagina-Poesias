@@ -63,7 +63,7 @@
 @media (max-width: 760px) {
     .container {
         height: 20vh;
-        padding-top: 30px;
+        padding-top: 10px;
         border-radius: 0;
         background-color: rgba(67, 67, 67, 1);
     }
@@ -73,7 +73,7 @@
     }
 
     .profile {
-        margin-top: 20px;
+        margin-top: 10px;
         justify-content: space-between;
     }
 
