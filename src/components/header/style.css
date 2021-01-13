@@ -63,6 +63,7 @@
 @media (max-width: 760px) {
     .container {
         height: 20vh;
+        width: 100vw;
         padding-top: 10px;
         border-radius: 0;
         background-color: rgba(67, 67, 67, 1);
