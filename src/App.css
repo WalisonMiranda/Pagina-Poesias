@@ -10,7 +10,7 @@ body {
   background: linear-gradient(to top left, #e66465, purple) no-repeat;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 480px) {
   body {
     background: #171717;
   }

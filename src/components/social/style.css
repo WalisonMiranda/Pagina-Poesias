@@ -50,16 +50,16 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
     .social {
-        width: 100vw;
-        margin-top: -29px;
-    }
-}
-
-@media screen and (max-width: 380px) {
-    .social {
+        width: 80vw;
         margin: 13px;
+        margin-top: 25px;
         background-color: rgba(67, 67, 67, 1);
+    }
+
+    .social a {
+        margin: 0 30px;
+        transform: scale(1.2);
     }
 }

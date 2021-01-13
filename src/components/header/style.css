@@ -72,9 +72,10 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
     .container {
         height: 20vh;
+        padding-top: 30px;
         border-radius: 0;
         background-color: rgba(67, 67, 67, 1);
 
@@ -85,7 +86,7 @@
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 480px) {
     .head {
         justify-content: space-between;
     }
