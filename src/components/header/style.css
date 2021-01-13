@@ -58,35 +58,16 @@
     height: 4px;
 }
 
-@media screen and (max-width: 640px) {
-    .container {
-        margin: 0;
-        width: 100%;
-    }
 
-    .head {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-}
 
-@media screen and (max-width: 480px) {
+@media (max-width: 760px) {
     .container {
         height: 20vh;
         padding-top: 30px;
         border-radius: 0;
         background-color: rgba(67, 67, 67, 1);
-
     }
 
-    .underline {
-        font-size: 36px;
-    }
-}
-
-@media screen and (max-width: 480px) {
     .head {
         justify-content: space-between;
     }
