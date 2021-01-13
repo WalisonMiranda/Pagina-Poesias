@@ -36,10 +36,9 @@
     color: #E1306C;
 }
 
-@media screen and (max-width: 640px) {
+@media (max-width: 760px) {
     .social {
         position: relative;
-        width: 100%;
         display: flex;
         flex-direction: row;
         padding: 16px;
@@ -47,11 +46,6 @@
         border-bottom-right-radius: 10px;
         border-bottom-left-radius: 10px;
         transform: scale(.8);
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .social {
         width: 80vw;
         margin: 13px;
         margin-top: 25px;
