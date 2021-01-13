@@ -148,7 +148,7 @@
 
 @media (max-width: 760px) {
   .card:first-child {
-    margin-top: 60px;
+    margin-top: 20px;
     height: 490px;
   }
 
