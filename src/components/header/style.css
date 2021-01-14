@@ -75,13 +75,11 @@
     .head {
         height: 80%;
         width: 90%;
-        margin-top: 55px;
         flex-direction: column;
         justify-content: center;
     }
 
     .profile {
-        margin-top: 86px;
         padding-bottom: 15px;
         justify-content: space-between;
     }
