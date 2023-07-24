@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 .container {
-    position: fixed;
+    position: absolute;
     height: 250px;
     width: 90%;
     left: 0;
+    top:0;
     margin: 0 5%;
     display: flex;
     align-items: center;
